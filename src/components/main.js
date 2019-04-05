@@ -12,7 +12,6 @@ export class Main extends React.Component {
     return (
       <Switch>
         <Route exact path="/" component={LandingPage} />
-        <Route exact path="/react-portfolio" component={LandingPage} />
         <Route exact path="/aboutMe" component={AboutMe} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/projects" component={Projects} />
