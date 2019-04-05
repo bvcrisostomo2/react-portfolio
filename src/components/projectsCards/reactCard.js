@@ -23,7 +23,7 @@ export class ReactCard extends React.Component {
                 "url(https://res.cloudinary.com/bvcrisostomo/image/upload/v1554489030/react-portfolio/Mountains.jpg) center/cover"
             }}
           >
-            React Project #1
+            React Weather App
           </CardTitle>
           <CardText>
             Weather Application created using React and OpenWeather API
