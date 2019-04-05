@@ -21,7 +21,7 @@ class App extends Component {
             </Header>
             <Drawer title="Brian Crisostomo">
               <Navigation>
-                <Link to="/">Home</Link>
+                <Link to="/react-portfolio">Home</Link>
                 <Link to="/resume">Resume</Link>
                 {/*<Link to="/aboutMe">About Me</Link> */}
                 <Link to="/projects">Projects</Link>
