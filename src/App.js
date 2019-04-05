@@ -12,7 +12,7 @@ class App extends Component {
           <Layout>
             <Header className="header-color" title="Brian Crisostomo" scroll>
               <Navigation>
-                <Link to="/">Home</Link>
+                <Link to="/react-portfolio">Home</Link>
                 <Link to="/resume">Resume</Link>
                 {/*<Link to="/aboutMe">About Me</Link> */}
                 <Link to="/projects">Projects</Link>
