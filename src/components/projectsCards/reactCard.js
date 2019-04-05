@@ -31,7 +31,7 @@ export class ReactCard extends React.Component {
           <CardActions border>
             <Button colored>
               <a
-                href="https://github.com/bvcrisostomo2/react-portfolio"
+                href="https://github.com/bvcrisostomo2/react-weather-app/tree/gh-pages"
                 rel="noopener noreferrer"
                 target="_blank"
               >
