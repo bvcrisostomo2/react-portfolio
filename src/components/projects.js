@@ -33,8 +33,10 @@ export class Projects extends React.Component {
           ripple
         >
           <Tab>React</Tab>
+          {/*
           <Tab>JavaScript</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>MongoDB</Tab> 
+          */}
         </Tabs>
         <Grid>
           <Cell col={12}>
