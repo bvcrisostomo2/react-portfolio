@@ -31,14 +31,22 @@ export class ReactCard extends React.Component {
           <CardActions border>
             <Button colored>
               <a
-                href="https://github.com/bvcrisostomo2/react-weather-app/tree/gh-pages"
+                href="https://github.com/bvcrisostomo2/react-weather-app/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 Github
               </a>
             </Button>
-            <Button colored>Live Demo</Button>
+            <Button colored>
+              <a
+                href="https://bvcrisostomo2.github.io/react-weather-app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
             {/*<IconButton name="share" />*/}
