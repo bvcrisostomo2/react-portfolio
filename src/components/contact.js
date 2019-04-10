@@ -13,13 +13,13 @@ export class Contact extends React.Component {
               alt="avatar"
               style={{ height: "215px" }}
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+            {/*<p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               ultricies mi nec elit pretium porta. Ut pellentesque mollis magna
               et molestie. In elementum nulla vel augue tempor non ultrices
               mauris semper. Vestibulum nulla augue, volutpat at bibendum id,
               interdum ut ante.
-            </p>
+    </p>*/}
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>

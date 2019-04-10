@@ -17,7 +17,7 @@ export class Resume extends React.Component {
             </div>
             <h2 style={{ paddingTop: "2em" }}>Brian Crisostomo</h2>
             <h4 style={{ color: "grey" }}>Programmer</h4>
-            <hr
+            {/* <hr
               style={{
                 borderTop: "3px solid #4568dc",
                 width: "50%"
@@ -29,7 +29,7 @@ export class Resume extends React.Component {
               et molestie. In elementum nulla vel augue tempor non ultrices
               mauris semper. Vestibulum nulla augue, volutpat at bibendum id,
               interdum ut ante.
-            </p>
+            </p>*/}
             <hr style={{ borderTop: "3px solid #4568dc", width: "50%" }} />
             <h5>Address</h5>
             <p>73 Dona Carmen Ave. Don Jose Heights, Quezon City Philippines</p>
