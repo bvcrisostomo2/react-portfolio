@@ -26,13 +26,6 @@ export class LandingPage extends React.Component {
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </a>
                 <a
-                  href="https://www.google.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fab fa-linkedin" aria-hidden="true" />
-                </a>
-                <a
                   href="https://twitter.com/CrisostomoBrian"
                   rel="noopener noreferrer"
                   target="_blank"
