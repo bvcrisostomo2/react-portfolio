@@ -5,7 +5,6 @@ import {
   CardActions,
   Button,
   CardMenu,
-  IconButton,
   CardText
 } from "react-mdl";
 
@@ -13,7 +12,43 @@ export class ReactCard extends React.Component {
   render() {
     return (
       <div className="projects-grid">
-        {/*React Project 1 */}
+        <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+          <CardTitle
+            style={{
+              height: "176px",
+              background:
+                "url(https://res.cloudinary.com/bvcrisostomo/image/upload/v1554489030/react-portfolio/rtds_logo.svg) center/cover"
+            }}
+          />
+          <CardText>
+            This is a project tracking web app for Redtomato Design Studio
+          </CardText>
+          <CardActions border>
+            <Button colored>
+              <a
+                href="https://github.com/bvcrisostomo2/RedtomatoDS"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github
+              </a>
+            </Button>
+            <Button colored>
+              <a
+                href="https://rtds-inhouse-web-brian.herokuapp.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </Button>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }}>
+            {/*<IconButton name="share" />*/}
+          </CardMenu>
+        </Card>
+
+        {/*React Project 2 */}
         <Card shadow={5} style={{ width: "450", margin: "auto" }}>
           <CardTitle
             style={{
