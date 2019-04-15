@@ -53,7 +53,7 @@ export class Resume extends React.Component {
             <hr style={{ borderTop: "3px solid #b06ab3" }} />
             <h2>Experiences</h2>
             <ResumeInfo
-              startYear={"Jan 2018 - Present"}
+              startYear={"Jun 2018 - Present"}
               school={"Red Tomato Design Studio "}
               schoolDesc={"CO-OWNER: SOFTWARE ENGINEER"}
             />
