@@ -15,7 +15,7 @@ export class LandingPage extends React.Component {
             <div className="banner-text">
               <h1>ReactJs Developer</h1>
               <hr />
-              <p>HTML/CSS | Bootstrap | JavaScript | ReactJS | Python</p>
+              <p>HTML/CSS | Bootstrap | JavaScript | React.js | Python</p>
               <div className="social-links">
                 {/*Github account */}
                 <a
@@ -24,6 +24,13 @@ export class LandingPage extends React.Component {
                   target="_blank"
                 >
                   <i className="fab fa-github-square" aria-hidden="true" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/brian-crisostomo-653144185/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin" />
                 </a>
                 <a
                   href="https://twitter.com/CrisostomoBrian"
