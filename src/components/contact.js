@@ -9,9 +9,9 @@ export class Contact extends React.Component {
           <Cell col={6}>
             <h2>Brian Crisostomo</h2>
             <img
-              src={require("../images/man.png")}
-              alt="avatar"
-              style={{ height: "215px" }}
+              src="https://res.cloudinary.com/bvcrisostomo/image/upload/v1568120514/react-portfolio/Grad_Pic.jpg"
+              alt="photo"
+              className="avatar-img-contact"
             />
             {/*<p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer

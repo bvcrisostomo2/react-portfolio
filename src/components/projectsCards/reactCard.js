@@ -17,6 +17,34 @@ export class ReactCard extends React.Component {
             style={{
               height: "176px",
               background:
+                "url(https://res.cloudinary.com/bvcrisostomo/image/upload/v1568123572/react-portfolio/website.jpg) center/cover"
+            }}
+          />
+          <CardText>
+            Redtomato Design Studio Website created using ReactJS
+          </CardText>
+          <CardActions border>
+            <Button colored>
+              <a
+                href="https://redtomatodesignstudio.netlify.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </Button>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }}>
+            {/*<IconButton name="share" />*/}
+          </CardMenu>
+        </Card>
+
+        {/*Project number 2 */}
+        <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+          <CardTitle
+            style={{
+              height: "176px",
+              background:
                 "url(https://res.cloudinary.com/bvcrisostomo/image/upload/v1554489030/react-portfolio/rtds_logo.svg) center/cover"
             }}
           />
@@ -48,7 +76,7 @@ export class ReactCard extends React.Component {
           </CardMenu>
         </Card>
 
-        {/*React Project 2 */}
+        {/*React Project 3 */}
         <Card shadow={5} style={{ width: "450", margin: "auto" }}>
           <CardTitle
             style={{

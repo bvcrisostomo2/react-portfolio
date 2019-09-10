@@ -36,7 +36,12 @@
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  margin-top: 5em;
+  border-radius: 50%;
+}
+.avatar-img-contact {
+  height: 250px;
+  border-radius: 50%;
 }
 
 .banner-text {
@@ -109,7 +114,8 @@
   }
   .avatar-img {
     height: 200px;
-    padding-top: 5em;
+    margin-top: 5em;
+    border-radius: 50%;
   }
 }
 
@@ -144,7 +150,8 @@
   }
   .avatar-img {
     height: 200px;
-    padding-top: 5em;
+    margin-top: 5em;
+    border-radius: 50%;
   }
 }
 /* End of Landing Page */

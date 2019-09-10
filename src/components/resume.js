@@ -10,13 +10,13 @@ export class Resume extends React.Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src={require("../images/man.png")}
-                alt="avatar"
-                style={{ height: "200px" }}
+                src="https://res.cloudinary.com/bvcrisostomo/image/upload/v1568120514/react-portfolio/Grad_Pic.jpg"
+                alt="photo"
+                className="avatar-img"
               />
             </div>
             <h2 style={{ paddingTop: "2em" }}>Brian Crisostomo</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
+            <h4 style={{ color: "grey" }}>Software Engineer</h4>
             {/* <hr
               style={{
                 borderTop: "3px solid #4568dc",
@@ -53,21 +53,27 @@ export class Resume extends React.Component {
             <hr style={{ borderTop: "3px solid #b06ab3" }} />
             <h2>Experiences</h2>
             <ResumeInfo
-              startYear={"Jun 2018 - Present"}
+              startYear={"Jul 2018 - March 2019"}
               school={"Red Tomato Design Studio "}
-              schoolDesc={"CO-OWNER: SOFTWARE ENGINEER"}
+              schoolDesc={
+                "SOFTWARE ENGINEER: Helped in the creation of the website using ReactJS, and Adobe Illustrator for the design and assets"
+              }
             />
             <ResumeInfo
               startYear={"Jun 2017 - Aug 2017 "}
               school={"UnionBank of the Philippines"}
-              schoolDesc={"INTERN"}
+              schoolDesc={
+                "INTERN: Spearheaded and developed the foundation of the project called U:bot, that was used by the HR department, in order to alleviate their massive inquiries. Participated in the Student Mentoring Program as intern "
+              }
             />
             <hr style={{ borderTop: "3px solid #b06ab3" }} />
             <h2>Competencies</h2>
             <ResumeInfo
               startYear={"Programming"}
               school={"Proficient in"}
-              schoolDesc={"Python, ReactJs, Javascript, HTML/CSS, Bootstrap"}
+              schoolDesc={
+                "ReactJS, JavaScript, Python, PL/SQL, Data Visualization, Machine Learning, Data Structures, MySQL, Java, Struts2, Hibernate, DB2, HTML5, CSS"
+              }
             />
             <ResumeInfo
               startYear={"Computer"}

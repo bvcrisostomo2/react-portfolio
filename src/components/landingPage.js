@@ -7,9 +7,14 @@ export class LandingPage extends React.Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img
+            {/*<img
               src={require("../images/man.png")}
               alt="avatar"
+              className="avatar-img"
+            />*/}
+            <img
+              src="https://res.cloudinary.com/bvcrisostomo/image/upload/v1568120514/react-portfolio/Grad_Pic.jpg"
+              alt="photo"
               className="avatar-img"
             />
             <div className="banner-text">
