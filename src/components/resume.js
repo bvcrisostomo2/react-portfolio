@@ -32,7 +32,7 @@ export class Resume extends React.Component {
             </p>*/}
             <hr style={{ borderTop: "3px solid #4568dc", width: "50%" }} />
             <h5>Address</h5>
-            <p>73 Dona Carmen Ave. Don Jose Heights, Quezon City Philippines</p>
+            <p>Philippines</p>
             <h5>Cellphone</h5>
             <p>+639177830190</p>
             <h5>Email</h5>
